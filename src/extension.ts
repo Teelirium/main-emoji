@@ -11,10 +11,10 @@ export function activate(context: vscode.ExtensionContext) {
   // The command has been defined in the package.json file
   // Now provide the implementation of the command with registerCommand
   // The commandId parameter must match the command field in package.json
-//   let disposable = vscode.commands.registerCommand("main.hi", () => {
-//     vscode.window.showInformationMessage("hi");
-//   });
-//   context.subscriptions.push(disposable);
+  //   let disposable = vscode.commands.registerCommand("main.hi", () => {
+  //     vscode.window.showInformationMessage("hi");
+  //   });
+  //   context.subscriptions.push(disposable);
 
   const hoverDisposable = vscode.languages.registerHoverProvider(
     { pattern: "**/*" },
@@ -27,7 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
         content.supportHtml = true;
         content.supportThemeIcons = true;
         content.baseUri = vscode.Uri.file(
-          path.join(context.extensionPath, "src", "images", path.sep)
+          path.join(context.extensionPath, "images", path.sep)
         );
 
         const targetText = document.getText(
