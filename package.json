@@ -1,6 +1,6 @@
 {
-  "name": "main",
-  "displayName": "Main",
+  "name": "main-emoji",
+  "displayName": ":main:",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:main.helloWorld"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "main.helloWorld",
-        "title": "Hello World"
+        "command": "main.hi",
+        "title": "hi"
       }
     ]
   },
