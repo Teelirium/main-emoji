@@ -1,9 +1,10 @@
 {
   "name": "main-emoji",
   "displayName": ":main:",
-  "description": "",
+  "description": "Adds a really funny hover tooltip to every instance of the word 'main'",
   "icon": "images/main.png",
   "version": "1.0.0",
+  "publisher": "teel-official",
   "repository": {
     "url": "https://github.com/Teelirium/main-emoji"
   },
