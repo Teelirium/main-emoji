@@ -2,7 +2,11 @@
   "name": "main-emoji",
   "displayName": ":main:",
   "description": "",
+  "icon": "images/main.png",
   "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Teelirium/main-emoji"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -14,12 +18,7 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "main.hi",
-        "title": "hi"
-      }
-    ]
+    "commands": []
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
